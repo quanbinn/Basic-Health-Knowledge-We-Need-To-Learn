@@ -1,4 +1,4 @@
-# Binxia: Hold + Keep Pace  
+# Binxia: Hold + Keep Pace + Not Greedy
 
 ## 我们需要学习的健康知识
 
