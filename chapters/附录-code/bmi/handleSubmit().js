@@ -1,8 +1,8 @@
 function handleSubmit(){
-	var myHeight = document.getElementById("myHeight").value;
+  var myHeight = document.getElementById("myHeight").value;
   var myWeight = document.getElementById("myWeight").value;
   
-	var myBMIFloatNum = myWeight / ((myHeight / 100) * (myHeight / 100));// Calculate my BMI(kg/m2)    
+  var myBMIFloatNum = myWeight / ((myHeight / 100) * (myHeight / 100));// Calculate my BMI(kg/m2)    
   var myBMI = myBMIFloatNum.toFixed(1);     // Calculate my BMI round(1)
   
   // render the BMI info filled
