@@ -5,7 +5,7 @@
 # Physical Therapy Exerciser
 
 ### 背景和假定
-- [身高体重指数（BMI）](/chapters/章1-背景和假定/身高体重指数（BMI）.md)
+- [身高体重指数](/chapters/章1-背景和假定/身高体重指数.md)
 - Nutrition-facts
 
 ### 食品
