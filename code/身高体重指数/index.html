@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>计算出你的BMI</title>
+    <link rel="stylesheet" type="text/css" href="rendering.css">
+  </head>
+  <body>
+    <h3>获取BMI数据的具体步骤：</h3>
+    <ol>
+      <li>请输入你的身高和体重的数据</li>
+      <li>按下“计算出你的BMI”, 获得你的BMI数值</li>
+      <li>获得你的正常体重的范围</li>
+    </ol>
+    <form>
+      身高：<input type="number" id="height" name="height" min="0" max="300" step="0.5" placeholder="厘米"><br>
+      体重：<input type="number" id="weight" name="weight" min="0" max="1000" step="0.5" placeholder="公斤"><br>
+      <input type="submit" value="计算出你的BMI" onclick="handleSubmit()"/>
+    </form>
+    <div id="heightInfo"></div> 
+    <div id="weightInfo"></div> 
+    <div id="BMIInfo"></div>
+    <div id="healthyWeight"></div>
+    <a href="https://github.com/quanbinn/Basic-Health-Knowledge-We-Need-To-Learn">健康极客：我们需要学习的基本健康知识</a>
+    <script src="handleSubmit().js"></script>
+  </body>
+</html>
