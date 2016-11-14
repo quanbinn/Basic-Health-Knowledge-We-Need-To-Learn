@@ -1,8 +1,4 @@
-# 主标题：编程学习的革命
-## 副标题：我们需要学习的健康知识
-
-# Defensive Exerciser
-# Physical Therapy Exerciser
+# 自学编程 & 个人健康的认知实践
 
 ### 背景和假定
 - [身高体重指数](/chapters/章1-背景和假定/身高体重指数.md)
@@ -19,5 +15,7 @@
 ### 康复治疗
 
 
+# Defensive Exerciser
+# Physical Therapy Exerciser
 
 
