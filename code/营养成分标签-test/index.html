@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>计算出你的BMI</title>
+    <link rel="stylesheet" type="text/css" href="rendering.css">
+  </head>
+  <body>
+    <h3>体验营养成分标签：</h3>
+    <ol>
+      <li>请输入食品中营养成分的含量</li>
+      <li>按下“计算出营养成分含量的每天占比”, 获得数值</li>
+      <li>获得营养元素的含量评价</li>
+    </ol>
+
+    <form>
+      总脂肪：<input type="number" id="totalFat" name="totalFat" min="0" max="300" step="0.5" placeholder="输入含量（克）">
+      <input type="submit" value="计算出总脂肪的每天占比" onclick="handleSubmit()"/>  
+      <input type="text" id="totalFatDVPercent" name="totalFatDVPercent"> 
+    </form>
+
+      <input type="text" id="totalFatDVPercent1" name="totalFatDVPercent"> 
+    <div id="totalFatDVPercentInfo"></div> 
+    <script src="handleSubmit().js"></script>
+  </body>
+</html>
