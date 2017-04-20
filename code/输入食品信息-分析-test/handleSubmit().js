@@ -1,5 +1,4 @@
 function handleSubmit(){
-
   // Get value from form element
   var unit = document.getElementById("unit").value;
   var calory = document.getElementById("calory").value;
@@ -18,9 +17,9 @@ function handleSubmit(){
   var saturatedFatPercentDVQuotient = (saturatedFatPercentDV / caloryPercentDV).toFixed(1);
   // get the quotient of cholesterol's %DV / calories's %DV  
   var cholesterolPercentDVQuotient = (cholesterolPercentDV / caloryPercentDV).toFixed(1);
-
+  
   alert("这种食品的单位: " + unit + "克\n这种食品的能量: " + calory + "卡路里\n这种食品的总脂肪: " + totalFat + "克\n这种食品的饱和脂肪: " + saturatedFat +"克\n这种食品的胆固醇: " + cholesterol +"毫克");
-
+  
   // render the food info filled 
   document.getElementById("foodUnit").textContent = "单位: " + unit +"克";  
   document.getElementById("foodCalory").textContent = "能量 " + calory +"卡路里";  
@@ -39,6 +38,5 @@ function handleSubmit(){
 
   document.getElementById("foodTotalFatPercentDVQuotient").textContent = "总脂肪占比/卡路里占比：" + totalFatPercentDVQuotient; 
   document.getElementById("foodSaturatedFatPercentDVQuotient").textContent = "饱和脂肪占比/卡路里占比：" + saturatedFatPercentDVQuotient ; 
-  document.getElementById("foodCholesterolPercentDVQuotient").textContent = "胆固醇占比/卡路里占比：" + cholesterolPercentDVQuotient; 
-
+  document.getElementById("foodCholesterolPercentDVQuotient").textContent = "胆固醇占比/卡路里占比：" + cholesterolPercentDVQuotient;  
  }

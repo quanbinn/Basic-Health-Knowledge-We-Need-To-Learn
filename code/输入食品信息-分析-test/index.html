@@ -5,36 +5,36 @@
     <link rel="stylesheet" type="text/css" href="rendering.css">
   </head>
   <body>
-<h3>获得食品的数据：</h3>
-<ol>
-  <li>请输入你的身高和体重的数据</li>
-  <li>按下“计算出你的BMI”, 获得你的BMI数值</li>
-  <li>获得你的正常体重的范围</li>
-</ol>
+    <h3>获得食品的数据：</h3>
+    <ol>
+      <li>请输入食品的各部分的数值</li>
+      <li>按下“获取这种食品的分析”, 获得这种食品的分析及对你的饮食建议</li>
+      <li>在对话框里弹出这种食品的分析及对你的饮食建议</li>
+    </ol>
 
-<form>
-  单位：<input type="number" name="unit" placeholder="克"><br>
-  能量：<input type="number" name="calory" placeholder="卡路里"><br>
-  总脂肪：<input type="number" name="totalFat" placeholder="克"><br>
-  饱和脂肪：<input type="number" name="saturatedFat" placeholder="克"><br>
-  胆固醇：<input type="number" name="cholesterol" placeholder="毫克"><br>
-  <input type="submit" value="提交" onclick="handleSubmit()"/>
-</form>
+    <form>
+      单位：<input type="number" id="unit" name="unit" min="0" max="500" step="1" placeholder="克"><br>
+      能量：<input type="number" id="calory" name="calory" min="0" max="2000" step="1" placeholder="卡路里"><br>
+      总脂肪：<input type="number" id="totalFat" name="totalFat" min="0" max="200" step="0.5" placeholder="输入含量（克）"><br>
+      饱和脂肪：<input type="number" id="saturatedFat" name="saturatedFat" min="0" max="200" step="0.5" placeholder="克"><br>
+      胆固醇：<input type="number" id="cholesterol" name="cholesterol" min="0" max="500" step="1" placeholder="毫克"><br>
+      <input type="submit" value="获取这种食品的分析" onclick="handleSubmit()"/>
+    </form>
 
-<div id="foodUnit"></div> 
-<div id="foodCalory"></div> 
-<div id="foodTotalFat"></div> 
-<div id="foodSaturatedFat"></div> 
-<div id="foodCholesterol"></div> 
+    <div id="foodUnit"></div> 
+    <div id="foodCalory"></div> 
+    <div id="foodTotalFat"></div> 
+    <div id="foodSaturatedFat"></div> 
+    <div id="foodCholesterol"></div> 
 
-<div id="foodCaloryPercentDV"></div> 
-<div id="foodTotalFatPercentDV"></div> 
-<div id="foodSaturatedFatPercentDV"></div> 
-<div id="foodCholesterolPercentDV"></div> 
+    <div id="foodCaloryPercentDV"></div> 
+    <div id="foodTotalFatPercentDV"></div> 
+    <div id="foodSaturatedFatPercentDV"></div> 
+    <div id="foodCholesterolPercentDV"></div> 
 
-<div id="foodTotalFatPercentDVQuotient"></div> 
-<div id="foodSaturatedFatPercentDVQuotient"></div> 
-<div id="foodCholesterolPercentDVQuotient"></div> 
+    <div id="foodTotalFatPercentDVQuotient"></div> 
+    <div id="foodSaturatedFatPercentDVQuotient"></div> 
+    <div id="foodCholesterolPercentDVQuotient"></div> 
     <script src="handleSubmit().js"></script>
   </body>
 </html>
