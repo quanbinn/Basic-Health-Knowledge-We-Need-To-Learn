@@ -56,18 +56,13 @@
 
 - [牛奶](/chapters/章y-附录/牛奶.md)
 - [脱脂酸奶](/chapters/章y-附录/脱脂酸奶.md)
-
 - [面包](/chapters/章y-附录/面包.md)
 - [燕麦](/chapters/章y-附录/燕麦.md)
-
 - [饺子](/chapters/章y-附录/饺子.md)
- 
 - [方便面](/chapters/章y-附录/方便面.md)
 - [能量棒](/chapters/章y-附录/能量棒.md)
-
 - [马铃薯片等](/chapters/章y-附录/马铃薯片等.md)
 - [香肠和腊肠](/chapters/章y-附录/香肠和腊肠.md)
-
 - [自学编程的最优学习教程](/chapters/章y-附录/自学编程的最优学习教程.md)
 - [自学编程时解决英语障碍的方法](/chapters/章y-附录/自学编程时解决英语障碍的方法.md)
 
