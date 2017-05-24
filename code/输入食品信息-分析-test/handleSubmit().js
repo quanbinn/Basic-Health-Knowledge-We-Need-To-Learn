@@ -27,7 +27,7 @@ function handleSubmit(){
   document.getElementById("foodSaturatedFat").textContent = "饱和脂肪: " + saturatedFat +"克";  
   document.getElementById("foodCholesterol").textContent = "胆固醇: " + cholesterol +"毫克";  
 
-  alert("占卡路里每天需求总量的：" + caloryPercentDV +"%\n占总脂肪每天需求总量的：" + totalFatPercentDV +"\n占饱和脂肪每天需求总量的：" + saturatedFatPercentDV +"%\n占饱和脂肪每天需求总量的：" + saturatedFatPercentDV +"%\n占胆固醇每天需求总量的：" + cholesterolPercentDV +"%");
+  alert("占卡路里每天需求总量的：" + caloryPercentDV +"%\n占总脂肪每天需求总量的：" + totalFatPercentDV +"%\n占饱和脂肪每天需求总量的：" + saturatedFatPercentDV +"%\n占饱和脂肪每天需求总量的：" + saturatedFatPercentDV +"%\n占胆固醇每天需求总量的：" + cholesterolPercentDV +"%");
 
   document.getElementById("foodCaloryPercentDV").textContent = "占卡路里每天需求总量的：" + caloryPercentDV +"%";  
   document.getElementById("foodTotalFatPercentDV").textContent = "占总脂肪每天需求总量的：" + totalFatPercentDV +"%";  
