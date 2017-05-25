@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>计算出你的BMI</title>
+    <link rel="stylesheet" type="text/css" href="rendering.css">
+  </head>
+  <body>
+    <h3>获得食品的数据：</h3>
+    <ol>
+      <li>请输入食品的各部分的数值</li>
+      <li>按下“获取这种食品的分析”, 获得这种食品的分析及对你的饮食建议</li>
+      <li>在对话框里弹出这种食品的分析及对你的饮食建议</li>
+    </ol>
+
+    <form>
+      单位：<input type="number" id="unit" name="unit" min="0" max="500" step="1" placeholder="克"><br>
+      能量：<input type="number" id="calory" name="calory" min="0" max="2000" step="1" placeholder="卡路里"><br>
+      胆固醇：<input type="number" id="cholesterol" name="cholesterol" min="0" max="500" step="1" placeholder="毫克"><br>
+      <input type="submit" value="获取这种食品的分析" onclick="handleSubmit()"/>
+    </form>
+
+    <div id="foodUnit"></div> 
+    <div id="foodCalory"></div> 
+    <div id="foodCholesterol"></div> 
+
+    <div id="foodCaloryPercentDV"></div> 
+    <div id="foodCholesterolPercentDV"></div> 
+
+    <div id="foodCholesterolPercentDVQuotient"></div> 
+    <script src="handleSubmit().js"></script>
+  </body>
+</html>
