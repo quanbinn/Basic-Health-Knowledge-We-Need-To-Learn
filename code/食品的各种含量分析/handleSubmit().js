@@ -38,5 +38,42 @@ function handleSubmit(){
 
   document.getElementById("foodTotalFatPercentDVQuotient").textContent = "总脂肪占比/卡路里占比：" + totalFatPercentDVQuotient; 
   document.getElementById("foodSaturatedFatPercentDVQuotient").textContent = "饱和脂肪占比/卡路里占比：" + saturatedFatPercentDVQuotient ; 
-  document.getElementById("foodCholesterolPercentDVQuotient").textContent = "胆固醇占比/卡路里占比：" + cholesterolPercentDVQuotient;  
+  document.getElementById("foodCholesterolPercentDVQuotient").textContent = "胆固醇占比/卡路里占比：" + cholesterolPercentDVQuotient; 
+
+  // output your 总脂肪占比/卡路里占比 description according to HealthyDecision recommendation
+  if (totalFatPercentDVQuotient <= 1) {
+    alert("这种食品的总脂肪占比/卡路里占比是"+ totalFatPercentDVQuotient + "。"); 
+    alert("\n从总脂肪含量来看，这是均衡食品？？。");   
+  } else if ( totalFatPercentDVQuotient > 1 && totalFatPercentDVQuotient <= 2 ) {
+    alert("这种食品的总脂肪占比/卡路里占比是"+ totalFatPercentDVQuotient + "。"); 
+    alert("\n从总脂肪含量来看，这种食品含有高脂肪。"); 
+  } else {
+    alert("这种食品的总脂肪占比/卡路里占比是"+ totalFatPercentDVQuotient + "。"); 
+    alert("\n从总脂肪含量来看，这种食品含有超高脂肪。"); 
+  };
+
+  // output your 饱和脂肪占比/卡路里占比 description according to HealthyDecision's recommendation
+  if (saturatedFatPercentDVQuotient <= 1) {
+    alert("这种食品的饱和脂肪占比/卡路里占比是"+ saturatedFatPercentDVQuotient + "。"); 
+    alert("\n从饱和脂肪含量来看，这是均衡食品？？。");   
+  } else if ( saturatedFatPercentDVQuotient > 1 && saturatedFatPercentDVQuotient <= 2 ) {
+    alert("这种食品的饱和脂肪占比/卡路里占比是"+ saturatedFatPercentDVQuotient + "。"); 
+    alert("\n从饱和脂肪含量来看，这种食品含有高饱和脂肪。"); 
+  } else {
+    alert("这种食品的饱和脂肪占比/卡路里占比是"+ saturatedFatPercentDVQuotient + "。"); 
+    alert("\n从饱和脂肪含量来看，这种食品含有超高饱和脂肪。"); 
+  };
+
+  // output your 胆固醇占比/卡路里占比 description according to HealthyDecision's recommendation
+  if (cholesterolPercentDVQuotient <= 1) {
+    alert("这种食品的胆固醇占比/卡路里占比是"+ cholesterolPercentDVQuotient + "。"); 
+    alert("\n从胆固醇含量来看，这是均衡食品？？。");   
+  } else if ( cholesterolPercentDVQuotient > 1 && cholesterolPercentDVQuotient <= 2 ) {
+    alert("这种食品的胆固醇占比/卡路里占比是"+ cholesterolPercentDVQuotient + "。"); 
+    alert("\n从胆固醇含量来看，这种食品含有高胆固醇。"); 
+  } else {
+    alert("这种食品的胆固醇占比/卡路里占比是"+ cholesterolPercentDVQuotient + "。"); 
+    alert("\n从胆固醇含量来看，这种食品含有超高胆固醇。"); 
+  }  
+
  }
