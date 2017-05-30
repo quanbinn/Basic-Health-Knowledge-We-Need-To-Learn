@@ -17,6 +17,9 @@
 
 ## 在线体验及实例代码
 
+[BMI在线计算](https://jsfiddle.net/quanbinn/af9ovof8/)
+
+[实例代码]()
 
 ## 我们应该怎么做
 
