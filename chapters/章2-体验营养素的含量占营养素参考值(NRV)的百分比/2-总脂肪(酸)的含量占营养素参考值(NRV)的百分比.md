@@ -22,7 +22,7 @@
 
 ## 在线体验及实例代码
 
-[BMI在线计算](https://jsfiddle.net/quanbinn/wcczf7jL/)
+[在线计算](https://jsfiddle.net/quanbinn/wcczf7jL/)
 
 [实例代码]()
 
