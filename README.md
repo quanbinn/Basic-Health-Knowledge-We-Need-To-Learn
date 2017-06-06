@@ -88,43 +88,39 @@
 
 ### 附录
 
+- [肉食](/chapters/章y-附录/肉食.md)
 - [牛奶](/chapters/章y-附录/牛奶.md)
 - [脱脂酸奶](/chapters/章y-附录/脱脂酸奶.md)
-- [面包](/chapters/章y-附录/面包.md)
+- [奶酪相关食品](/chapters/章y-附录/奶酪相关食品.md)
 - [燕麦](/chapters/章y-附录/燕麦.md)
-------------------
-- [饺子](/chapters/章y-附录/饺子.md)
-- [方便面](/chapters/章y-附录/方便面.md)
-- [能量棒](/chapters/章y-附录/能量棒.md)
-- [马铃薯片等](/chapters/章y-附录/马铃薯片等.md)
-- [香肠和腊肠](/chapters/章y-附录/香肠和腊肠.md)
-------------------
-- [冷甜点](/chapters/章y-附录/冷甜点.md)
+- [米](/chapters/章y-附录/米.md)
+- [米线](/chapters/章y-附录/米线.md)
+- [坚果](/chapters/章y-附录/坚果.md)
 - [包子](/chapters/章y-附录/包子.md)
-- [日本寿司](/chapters/章y-附录/日本寿司.md)
+- [饺子](/chapters/章y-附录/饺子.md)
+- [食用油](/chapters/章y-附录/食用油.md)
+- [蔬菜](/chapters/章y-附录/蔬菜.md)
+------------------
+- [面包](/chapters/章y-附录/面包.md)
+- [方便面](/chapters/章y-附录/方便面.md)
+- [速食面条](/chapters/章y-附录/速食面条.md)
+- [速食米饭](/chapters/章y-附录/速食米饭.md)
+- [卷饼](/chapters/章y-附录/卷饼.md)
+- [马铃薯片等](/chapters/章y-附录/马铃薯片等.md)
 - [汉堡和披萨](/chapters/章y-附录/汉堡和披萨.md)
+- [香肠和腊肠](/chapters/章y-附录/香肠和腊肠.md)
+- [能量棒](/chapters/章y-附录/能量棒.md)
+- [饼干](/chapters/章y-附录/饼干.md)
+- [果汁](/chapters/章y-附录/果汁.md)
+- [饮料](/chapters/章y-附录/饮料.md)
+- [冷甜点](/chapters/章y-附录/冷甜点.md)
+- [中国传统食品](/chapters/章y-附录/中国传统食品.md)
+- [佐料及特殊食品](/chapters/章y-附录/佐料及特殊食品.md)
+------------------
+- [日本寿司](/chapters/章y-附录/日本寿司.md)
 - [沙拉](/chapters/章y-附录/沙拉.md)
 - [调料](/chapters/章y-附录/调料.md)
-------------------
-- [卷饼](/chapters/章y-附录/卷饼.md)
-- [坚果](/chapters/章y-附录/坚果.md)
-- [奶酪相关食品](/chapters/章y-附录/奶酪相关食品.md)
-- [肉食](/chapters/章y-附录/肉食.md)
-- [蔬菜](/chapters/章y-附录/蔬菜.md)
-- [食用油](/chapters/章y-附录/食用油.md)
-- [饮料](/chapters/章y-附录/饮料.md)
-------------------
 - [儿童食品](/chapters/章y-附录/儿童食品.md)
-- [果汁](/chapters/章y-附录/果汁.md)
-- [饼干](/chapters/章y-附录/饼干.md)
-------------------
-- [速食米饭](/chapters/章y-附录/速食米饭.md)
-- [速食面条](/chapters/章y-附录/速食面条.md)
-- [米线](/chapters/章y-附录/米线.md)
-- [佐料及特殊食品](/chapters/章y-附录/佐料及特殊食品.md)
-- [中国传统食品](/chapters/章y-附录/中国传统食品.md)
-------------------
-- [米](/chapters/章y-附录/米.md)
 - [含反式脂肪酸的典型食品](/chapters/章y-附录/含反式脂肪酸的典型食品.md)
 ------------------
 - [自学编程的最优学习教程](/chapters/章y-附录/自学编程的最优学习教程.md)
