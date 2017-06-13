@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nutrition facts-Energy</title>
+    <link rel="stylesheet" type="text/css" href="rendering.css">
+  </head>
+  <body>
+    <h3>体验能量含量：</h3>
+    <ol>
+      <li>请输入这种食品中的每100克（毫升）和/或每份食品中能量的含量</li>
+      <li>单击“计算出能量含量占每日摄取参考值（NRV）的百分比”</li>
+      <li>获得能量含量的计算和分析结果</li>
+    </ol>
+
+    <form>
+      能量：<input type="number" id="totalFat" name="totalFat" min="0" max="300" step="0.5" placeholder="输入含量（千焦）">
+      <input type="submit" value="计算出能量占每日摄取参考值（NRV）的百分比" onclick="handleSubmit()"/>  
+    </form>
+
+    <div id="totalFatDVPercentInfo"></div> 
+    <script src="handleSubmit().js"></script>
+  </body>
+</html>

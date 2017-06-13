@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Protein</title>
+    <link rel="stylesheet" type="text/css" href="rendering.css">
+  </head>
+  <body>
+    <h3>体验蛋白质含量：</h3>
+    <ol>
+      <li>请输入这种食品中的每100克（毫升）和/或每份食品中蛋白质的含量</li>
+      <li>单击“计算出蛋白质含量占每日摄取参考值（NRV）的百分比”</li>
+      <li>获得蛋白质含量的计算和分析结果</li>
+    </ol>
+
+    <form>
+      蛋白质：<input type="number" id="protein" name="protein" min="0" max="300" step="1" placeholder="输入含量（克）">
+      <input type="submit" value="计算出蛋白质含量占每日摄取参考值（NRV）的百分比" onclick="handleSubmit()"/>  
+    </form>
+
+    <div id="proteinDVPercentInfo"></div> 
+    <script src="handleSubmit().js"></script>
+  </body>
+</html>

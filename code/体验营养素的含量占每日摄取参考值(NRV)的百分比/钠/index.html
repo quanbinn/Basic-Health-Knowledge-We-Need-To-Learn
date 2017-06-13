@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sodium</title>
+    <link rel="stylesheet" type="text/css" href="rendering.css">
+  </head>
+  <body>
+    <h3>体验钠含量：</h3>
+    <ol>
+      <li>请输入这种食品中的每100克（毫升）和/或每份食品中钠的含量</li>
+      <li>单击“计算出钠含量占每日摄取参考值（NRV）的百分比”</li>
+      <li>获得钠含量的计算和分析结果</li>
+    </ol>
+
+    <form>
+      钠：<input type="number" id="sodium" name="sodium" min="0" max="300" step="0.5" placeholder="输入含量（克）">
+      <input type="submit" value="计算出钠的每天占比" onclick="handleSubmit()"/>  
+    </form>
+
+    <div id="sodiumDVPercentInfo"></div> 
+    <script src="handleSubmit().js"></script>
+  </body>
+</html>

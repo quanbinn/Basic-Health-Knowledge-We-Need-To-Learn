@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Food's totalFat Algorithms</title>
+    <link rel="stylesheet" type="text/css" href="rendering.css">
+  </head>
+  <body>
+    <h3>对食品的总脂肪含量分析</h3>
+    <ol>
+      <li>请输入这种食品的每100克（毫升）和/或每份食品中总脂肪含量</li>
+      <li>单击“获取对这种食品的总脂肪含量分析”</li>
+      <li>在对话框里弹出对这种食品的总脂肪含量分析及对你的饮食建议</li>
+    </ol>
+
+    <form>
+      能量：<input type="number" id="calory" name="calory" min="0" max="2000" step="1" placeholder="卡路里"><br>
+      总脂肪：<input type="number" id="totalFat" name="totalFat" min="0" max="200" step="0.5" placeholder="输入含量（克）"><br>
+      <input type="submit" value="获取对这种食品的总脂肪含量分析" onclick="handleSubmit()"/>
+    </form>
+
+    <div id="foodCalory"></div> 
+    <div id="foodTotalFat"></div> 
+
+    <div id="foodCaloryPercentDV"></div> 
+    <div id="foodTotalFatPercentDV"></div> 
+
+    <div id="foodTotalFatPercentDVQuotient"></div> 
+    <script src="handleSubmit().js"></script>
+  </body>
+</html>
