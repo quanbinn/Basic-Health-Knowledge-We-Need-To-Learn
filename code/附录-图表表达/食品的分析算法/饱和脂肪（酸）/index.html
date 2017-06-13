@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Food's Algorithms</title>
+    <link rel="stylesheet" type="text/css" href="rendering.css">
+  </head>
+  <body>
+    <canvas id="myCanvas" width="280" height="200"></canvas>
+
+    <script type="text/javascript">
+
+    var canvas = document.getElementById('myCanvas');  // 1. Get the canvas
+    var ctx=canvas.getContext('2d');  // 2. Get the context
+
+    ctx.font = "10pt Calibri";
+    ctx.fillText("饱和脂肪占比(y)", 0, 30);  // Text in the up end of the vertical axis.
+    ctx.fillText("卡路里占比(x)", 160, 195);  // Text in the right end of the horizontal axis.
+
+    ctx.fillText("y/x = 2.0 高饱和脂肪", 70, 50);  // Text in the super high y/x.
+    //ctx.fillText("y/x = 1.3 高脂肪", 95, 65);  // Text in the high y/x.
+    ctx.fillText("y/x = 1.3 适中饱和脂肪", 115, 85);  // Text in the balanced y/x.
+    ctx.fillText("y/x = 0.5 低饱和脂肪", 140, 130);  // Text in the low y/x.
+
+    drawArrow(ctx, 10, 190, 150, 190, 1, 'black');  // Horizontal axis.
+    drawArrow(ctx, 10, 190, 10, 40, 1, 'black');  // Vertical axis.
+
+    drawArrow(ctx, 10, 190, 70, 50, 1, 'red');  // 超高营养素
+    //drawArrow(ctx, 10, 190, 95, 65, 1, 'purple');  // 高营养素
+    drawArrow(ctx, 10, 190, 115, 85, 1, 'blue');  // 均衡营养素
+    drawArrow(ctx, 10, 190, 140, 130, 1, 'green');  // 低营养素
+
+
+    // second part of the path
+    ctx.moveTo(10, 190);
+    ctx.lineTo(70, 50);
+    ctx.lineTo(10, 50);
+    // indicate stroke color + draw the path
+    ctx.fillStyle = "pink";
+    ctx.fill();
+
+
+    /*
+    ctx.moveTo(10, 190);
+    ctx.lineTo(70, 50);
+    ctx.lineTo(115, 85);
+    // indicate stroke color + draw the path
+    ctx.fillStyle = "blue";
+    ctx.fill();
+    */
+
+    /*
+    ctx.moveTo(10, 190);
+    ctx.lineTo(115, 85);
+    ctx.lineTo(140, 130);
+    // indicate stroke color + draw the path
+    ctx.fillStyle = "blue";
+    ctx.fill();
+    */
+
+    /*
+    ctx.moveTo(10, 190);
+    ctx.lineTo(140, 130);
+    ctx.lineTo(140, 190);
+    // indicate stroke color + draw the path
+    ctx.fillStyle = "pink";
+    ctx.fill();
+    */
+
+    function drawArrow(ctx, fromx, fromy, tox, toy, arrowWidth, color){
+      //variables to be used when creating the arrow
+      var headlen = 10;
+      var angle = Math.atan2(toy-fromy,tox-fromx);
+
+      ctx.save();
+      ctx.strokeStyle = color;
+
+      //starting path of the arrow from the start square to the end square
+      //and drawing the stroke
+      ctx.beginPath();
+      ctx.moveTo(fromx, fromy);
+      ctx.lineTo(tox, toy);
+      ctx.lineWidth = arrowWidth;
+      ctx.stroke();
+
+      //starting a new path from the head of the arrow to one of the sides of
+      //the point
+      ctx.beginPath();
+      ctx.moveTo(tox, toy);
+      ctx.lineTo(tox-headlen*Math.cos(angle-Math.PI/7),
+                 toy-headlen*Math.sin(angle-Math.PI/7));
+
+      //path from the side point of the arrow, to the other side point
+      ctx.lineTo(tox-headlen*Math.cos(angle+Math.PI/7),
+                 toy-headlen*Math.sin(angle+Math.PI/7));
+
+      //path from the side point back to the tip of the arrow, and then
+      //again to the opposite side point
+      ctx.lineTo(tox, toy);
+      ctx.lineTo(tox-headlen*Math.cos(angle-Math.PI/7),
+                 toy-headlen*Math.sin(angle-Math.PI/7));
+
+      //draws the paths created above
+      ctx.stroke();
+      ctx.restore();
+    };
+
+
+
+
+
+    </script>
+  </body>
+</html>
