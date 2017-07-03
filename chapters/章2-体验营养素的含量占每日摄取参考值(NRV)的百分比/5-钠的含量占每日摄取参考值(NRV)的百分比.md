@@ -25,6 +25,8 @@
 
 ## 在线体验及实例代码
 
+[在线计算-美国标准](https://jsfiddle.net/quanbinn/91mjtfxo/)
+
 [在线计算-中国标准](https://jsfiddle.net/quanbinn/2drkp14n/)
 
 [实例代码](https://github.com/quanbinn/Basic-Health-Knowledge-We-Need-To-Learn/tree/master/code/%E4%BD%93%E9%AA%8C%E8%90%A5%E5%85%BB%E7%B4%A0%E7%9A%84%E5%90%AB%E9%87%8F%E5%8D%A0%E6%AF%8F%E6%97%A5%E6%91%84%E5%8F%96%E5%8F%82%E8%80%83%E5%80%BC(NRV)%E7%9A%84%E7%99%BE%E5%88%86%E6%AF%94/%E9%92%A0)
